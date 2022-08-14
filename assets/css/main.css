@@ -2633,6 +2633,7 @@ input, select, textarea {
 			background-color: rgba(0, 0, 0, 0.3);
 			text-align: left;
 			padding-left: .5rem;
+			-ms-text-size-adjust: auto;
 		}
 
 		#header .image.avatar {
@@ -2642,20 +2643,25 @@ input, select, textarea {
 
 /* Footer */
 
+	/* footer .inner {
+	} */
+
 	#footer .icons {
 		margin: 1em 0 0 0;
+		text-align: center;
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(243, 243, 243, 1);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(243, 243, 243, 1);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
 		padding: 0;
+		text-align: center;
 	}
 
 		#footer .copyright li {
